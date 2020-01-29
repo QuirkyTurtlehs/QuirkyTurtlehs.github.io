@@ -56,8 +56,11 @@ nav
 }
 p.header
 {
-    padding-bottom: 0px;
+    margin-top: 19px;
 
+    /* border-color: red;
+    border-width: 1px;
+    border-style: solid; */
 }
 div.menu
 {
@@ -79,6 +82,10 @@ a.menu
     color:#adadad;
     text-decoration: none;
 } 
+h2
+{
+    font-size: 28px;
+}
 main
 {
     /* border-color: red;
@@ -109,7 +116,7 @@ div.myProjects
 {
     /* border-color: blue;
     border-width: 1px;
-    border-style: solid; */
+    border-style: solid;  */
     
     margin-top: 40px;
     margin-bottom: 40px;
@@ -121,7 +128,7 @@ div.myProjects
     align-content: center;
 
     /* change this to 600 or something similar to get 1 item per row*/
-    max-width: 802px;
+    max-width: 602px;
 
     justify-content: center;
 
@@ -139,10 +146,11 @@ p.projectName
 
 div.project
 {
-    /* border-color: green; */
-    /* border-width: 1px;
-    border-style: solid;
-    border-color: #424242; */
+    /* border-color: green;
+     border-width: 1px;
+    border-style: solid; */
+
+    
     /* border-top: 0px;
     border-left: 0px;
     border-right: 0px; */
@@ -152,7 +160,7 @@ div.project
     margin-top: 0px;
     margin-bottom: 0px;
 
-    min-width: 800px;
+    min-width: 600px;
 
     /* display: flex;
     flex-flow: row;
@@ -170,6 +178,14 @@ div.projectSummary
     margin: 20px;
     margin-bottom: 40px;
     max-width: 500px;
+
+}
+img.sga
+{
+    max-height: 308px;
+    margin: 20px;
+    margin-left: 55px;
+
 
 }
 h3
