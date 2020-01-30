@@ -218,10 +218,10 @@ div.projectSummary
 }
 img.sga
 {
-    max-height: 308px;
-    margin: 20px;
-    margin-left: 55px;
+    max-height: 420px;
+    
 
+    margin: 20px;
 
 }
 h3
@@ -243,6 +243,7 @@ img.project
     
     
 }
+
 iframe
 {
     margin-bottom: 30px;
@@ -302,9 +303,4 @@ img.projectPoster
 h2.descHeader
 {
     font-size: 16px
-}
-img.randomImage
-{
-    max-height: 308px;
-    margin: 20px;
 }
