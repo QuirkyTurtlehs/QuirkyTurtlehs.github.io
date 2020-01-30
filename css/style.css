@@ -185,13 +185,22 @@ div.project
     flex-wrap: wrap;
     justify-content: center;
 }
+div.frame
+{
+    border-color: #424242;
+
+    border-width: 1px;
+    border-style: solid; 
+
+    margin-bottom: 20px;
+}
 div.textframe
 {
     margin-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 
     padding-left: 25px;
-    padding-right: 50px;
+    padding-right: 46px;
     padding-top: 5px;
     padding-bottom: 5px;
     width: 429px;
@@ -224,17 +233,19 @@ h3
 img.project
 {
     display: block; 
-    border-color: #424242;
-
-    border-width: 1px;
-    border-style: solid; 
+    
 
     /* border-bottom: 0px; */
 
-    border-radius: 3px;
+    /* border-radius: 3px; */
     height: 250px;
     width: 500px;
     
+    
+}
+iframe
+{
+    margin-bottom: 30px;
 }
 
 footer
