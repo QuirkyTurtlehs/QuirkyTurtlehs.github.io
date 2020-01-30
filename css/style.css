@@ -10,6 +10,7 @@ html, body
 a
 {
     color: deepskyblue;
+    text-decoration: none;
 }
 body
 {
@@ -128,7 +129,7 @@ div.myProjects
     align-content: center;
 
     /* change this to 600 or something similar to get 1 item per row*/
-    max-width: 602px;
+    max-width: 510px;
 
     justify-content: center;
 
@@ -137,6 +138,22 @@ div.myProjects
 
     padding-bottom: 40px;
 }
+div.linebreak
+{
+    margin-top: 30px;
+
+    border-width: 2px;
+    border-style: solid; 
+    border-color: #424242;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+
+    width: 500;
+
+    margin-bottom: 0px;
+}
+
 
 p.projectName
 {
@@ -146,19 +163,14 @@ p.projectName
 
 div.project
 {
-    /* border-color: green;
-     border-width: 1px;
-    border-style: solid; */
-
-    
-    /* border-top: 0px;
-    border-left: 0px;
-    border-right: 0px; */
+    /* border-color: green; 
+    border-width: 1px;
+    border-style: solid; */  
 
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
 
     min-width: 600px;
 
@@ -173,10 +185,25 @@ div.project
     flex-wrap: wrap;
     justify-content: center;
 }
+div.textframe
+{
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+    padding-left: 25px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 429px;
+
+    background-color: #171717;
+    /* border-style: solid; */
+}
+
 div.projectSummary
 {
     margin: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     max-width: 500px;
 
 }
@@ -197,11 +224,12 @@ h3
 img.project
 {
     display: block; 
-       
     border-color: #424242;
 
     border-width: 1px;
     border-style: solid; 
+
+    /* border-bottom: 0px; */
 
     border-radius: 3px;
     height: 250px;
