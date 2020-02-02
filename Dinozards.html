@@ -8,6 +8,8 @@
             <title> ElliotRosing </title> 
             <link rel="stylesheet" href="css/style.css">
 
+            <link href="css/lightbox.css" rel="stylesheet">
+
     </head>
 
     <body>
@@ -76,10 +78,33 @@
 
                         
                         <p> 
-                            This was a seven week school project I was apart of, together with 11 other people. Our main goal was to create a
-                            simple, yet fun game given the seven week time frame. It’s very easy to overscope a project like this so we chose 
-                            an idea that would allow plenty of time for polishing.
+                            This was a 7 week long school project I was apart of, together with 11 other people. The team consisted of 3 programmers, 
+                            3 game designers, 6 artists. Our main goal was to create a simple, yet fun game given the seven week time frame. It’s 
+                            very easy to overscope a project like this so we chose an idea that would allow plenty of time for polishing.                            
+                                                   
+                        </p>
+
+                        
+                        <p class="miniH"> What did I do during the project?</p>
+
+                        <p>
                             
+                            For this project I mainly worked on the input system, player movement, knockback and damage systems. I also took somewhat 
+                            of a “lead programmer” role which mostly meant that I was the main person to talk to regarding gameplay systems and our 
+                            general “code direction” for lack of a better term. 2 out of our 3 designers were also very technical, meaning we had 
+                            effectively 5 people writing code. To keep the code consistent I wrote a coding standard document so everyone was one the 
+                            same page. 
+
+                        </p>
+                        <p> 
+                            Link to the <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1z5QGl9brL3BA9mynlOcsCjwgB2tvE2Tzeo32KPb9wvA/edit?usp=sharing"> Coding Standard</a> document.
+                        </p>
+                        <p> 
+                            
+                            Towards the end of the project I spent a lot of time looking at the Unity profiler to see if any performance optimizations
+                            could be made. I was mainly looking for unnecessary instances of garbage collections, over use of GetComponent() or cases
+                            of high CPU usage and the cause for it. 
+                        
                         </p>
                         
                         <p> Download the game (requires 2 controllers to play): <a target="_blank" rel="noopener noreferrer" href="https://alexfloden.itch.io/dinozards">alexfloden.itch.io/dinozards</a></p>
@@ -96,7 +121,8 @@
                         
                         <p></p>
                     </div>                 
-                    <img class= "sga" src="Resources/Images/sga2.png" alt="Image of SGA diplomas">
+                    
+                    <a href="Resources/Images/sga2.png" data-lightbox="image-2" data-title="SGA Diplomas"> <img class= "sga" src="Resources/Images/sga2.png" alt="Image of SGA diplomas"> </a>
                     
                 </div>
                 
@@ -114,7 +140,7 @@
 
 
         </footer>
-
+        <script src="js/lightbox-plus-jquery.js"></script>
     </body>
 
 </html>

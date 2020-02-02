@@ -211,14 +211,16 @@ div.textframe
 
 div.projectSummary
 {
-    margin: 20px;
+    margin: 0px;
     margin-bottom: 0px;
     max-width: 500px;
 
 }
 p.miniH
 {
-    font-size: larger;
+    font-size: 22px;
+    color: #BCBCBC;
+    margin-top: 30px;
 }
 img.sga
 {
