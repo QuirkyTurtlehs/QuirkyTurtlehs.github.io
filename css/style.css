@@ -270,6 +270,36 @@ footer
     background-color: #171717;
 }
 
+/* Spoiler css */
+/*___________________________________________________________________________________________________________________________ */
+.spoilerbutton 
+{
+    display:block;
+    margin:5px 0;
+    background-color: #171717;
+    border-color: #171717;
+    color: #adadad;
+}
+.spoiler 
+{
+    overflow:hidden;
+    background: #171717;
+}
+.spoiler > div 
+{
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: margin 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: margin 0.2s ease;
+}
+.spoilerbutton[value="Show"] + .spoiler > div 
+{
+    margin-top:-100%;
+}
+.spoilerbutton[value="Hide"] + .spoiler 
+{
+    padding:5px;
+} 
 /* Project page specific css */
 /*____________________________________________________________________________________________________________________________*/
 
