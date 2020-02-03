@@ -10,6 +10,13 @@
 
             <link href="css/lightbox.css" rel="stylesheet">
 
+            <style type="text/css">
+                .spoilerbutton {display:block;margin:5px 0;background-color: #171717;border-color: #171717;color: #adadad;}
+                .spoiler {overflow:hidden;background: #171717;}
+                .spoiler > div {-webkit-transition: all 0.2s ease;-moz-transition: margin 0.2s ease;-o-transition: all 0.2s ease;transition: margin 0.2s ease;}
+                .spoilerbutton[value="Show"] + .spoiler > div {margin-top:-100%;}
+                .spoilerbutton[value="Hide"] + .spoiler {padding:5px;} 
+            </style> 
     </head>
 
     <body>
@@ -91,7 +98,7 @@
                             
                             For this project I mainly worked on the input system, player movement, knockback and damage systems. I also took somewhat 
                             of a “lead programmer” role which mostly meant that I was the main person to talk to regarding gameplay systems and our 
-                            general “code direction” for lack of a better term. 2 out of our 3 designers were also very technical, meaning we had 
+                            general “code direction” for lack of a better term. 2 out of our 3 designers are also very technical, meaning we had 
                             effectively 5 people writing code. To keep the code consistent I wrote a coding standard document so everyone was one the 
                             same page. 
 
@@ -106,6 +113,11 @@
                             of high CPU usage and the cause for it. 
                         
                         </p>
+
+                        <!-- <input class="spoilerbutton" type="button" value="Show" onclick="this.value=this.value=='Show'?'Hide':'Show';">
+                        <div class="spoiler"><div>
+                            PUT CONTENT YOU WISH TO HIDE HERE
+                        </div> </div> -->
                         
                         <p> Download the game (requires 2 controllers to play): <a target="_blank" rel="noopener noreferrer" href="https://alexfloden.itch.io/dinozards">alexfloden.itch.io/dinozards</a></p>
 
