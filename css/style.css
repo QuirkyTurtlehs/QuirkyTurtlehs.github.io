@@ -270,6 +270,12 @@ footer
     background-color: #171717;
 }
 
+img.code
+{
+    max-height: 750px;
+    margin: 0px;
+}
+
 /* Spoiler css */
 /*___________________________________________________________________________________________________________________________ */
 .spoilerbutton 
@@ -284,6 +290,7 @@ footer
 {
     overflow:hidden;
     background: #171717;
+    padding: 0px;
 }
 .spoiler > div 
 {
@@ -294,7 +301,7 @@ footer
 }
 .spoilerbutton[value="Show"] + .spoiler > div 
 {
-    margin-top:-100%;
+    margin-top:-300%;
 }
 .spoilerbutton[value="Hide"] + .spoiler 
 {
