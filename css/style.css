@@ -153,6 +153,10 @@ div.linebreak
 
     margin-bottom: 0px;
 }
+div.PDF
+{
+    /* border: none; */
+}
 
 
 p.projectName
