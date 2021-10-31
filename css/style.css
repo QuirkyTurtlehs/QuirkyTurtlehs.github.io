@@ -15,8 +15,6 @@ a
 body
 {
     background-color: #111111; 
-    
-    /* background-image: url("../Resources/Images/test2.png"); */
 
     margin: 0px;
 
@@ -29,15 +27,12 @@ body
 }
 header
 {
-    /* margin-top: -18px; */
 
     border-width: 1px;
-    /* border-top-style: solid; */
     border-color: #424242;
     border-bottom-style: solid;
 
     height: 50px;
-    /* background-color: #1a1a1a; */
     background-color: #171717;
     padding-top: 2px;
     padding-bottom: 2px;
@@ -58,10 +53,6 @@ nav
 p.header
 {
     margin-top: 19px;
-
-    /* border-color: red;
-    border-width: 1px;
-    border-style: solid; */
 }
 div.menu
 {
@@ -89,10 +80,6 @@ h2
 }
 main
 {
-    /* border-color: red;
-    border-width: 1px;
-    border-style: solid; */
-
     display: flex;
     flex: 1 0 auto;
     justify-content: center;
@@ -115,10 +102,6 @@ div.tempHeader
 }
 div.myProjects
 {
-    /* border-color: blue;
-    border-width: 1px;
-    border-style: solid;  */
-    
     margin-top: 40px;
     margin-bottom: 40px;
     
@@ -128,12 +111,10 @@ div.myProjects
     
     align-content: center;
 
-    /* change this to 600 or something similar to get 1 item per row*/
     max-width: 510px;
 
     justify-content: center;
 
-    /* background-color: #171717; */
     background-color: #111111;
 
     padding-bottom: 40px;
@@ -155,7 +136,7 @@ div.linebreak
 }
 div.PDF
 {
-    /* border: none; */
+
 }
 
 
@@ -167,20 +148,12 @@ p.projectName
 
 div.project
 {
-    /* border-color: green; 
-    border-width: 1px;
-    border-style: solid; */  
-
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0px;
     margin-bottom: 30px;
 
     min-width: 600px;
-
-    /* display: flex;
-    flex-flow: row;
-    flex-wrap: wrap; */
 
     padding: 10px;
 
@@ -210,7 +183,6 @@ div.textframe
     width: 429px;
 
     background-color: #171717;
-    /* border-style: solid; */
 }
 
 div.projectSummary
@@ -244,10 +216,6 @@ img.project
 {
     display: block; 
     
-
-    /* border-bottom: 0px; */
-
-    /* border-radius: 3px; */
     height: 250px;
     width: 500px;
     
@@ -270,7 +238,6 @@ footer
     border-top-style: solid;
 
     height: 100px;
-    /* background-color: #1a1a1a; */
     background-color: #171717;
 }
 
